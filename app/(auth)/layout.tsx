@@ -1,24 +1,12 @@
-"use client";
-
 import { buttonVariants } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { ReactNode } from "react";
 import logo from "@/public/assets/brand/logo-dark-theme.webp";
-import logoLight from "@/public/assets/brand/logo-light-theme.webp";
-import { useTheme } from "next-themes";
+// import logoLight from "@/public/assets/brand/logo-light-theme.webp";
 
 export default function AuthLayout({ children }: { children: ReactNode }) {
-  const { theme } = useTheme();
-  const assets = {
-    logo:
-      theme === "dark" ||
-      (theme === "system" &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
-        ? logo
-        : logoLight,
-  };
   return (
     <div className="position-relative flex min-h-svh flex-col items-center justify-center">
       <Link
@@ -37,7 +25,7 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
           className="flex items-center gap-2 self-center font-medium"
         >
           <Image
-            src={assets.logo}
+            src={logo}
             alt="venusLMS Logo"
             width={250}
             height={100}
