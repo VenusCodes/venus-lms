@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Venus-LMS",
+  title: "venusLMS",
   description: "An LMS system created by venuspaneliya.online",
 };
 
