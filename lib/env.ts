@@ -12,6 +12,8 @@ export const env = createEnv({
     AUTH_GITHUB_CLIENT_SECRET: z.string().min(1),
 
     RESEND_API_KEY: z.string().min(1),
+
+    ARCJET_KEY: z.string().min(1),
   },
   client: {
     NEXT_PUBLIC_APP_URL: z.string().min(1),
