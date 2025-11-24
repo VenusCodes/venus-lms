@@ -20,8 +20,8 @@ In today’s fast-evolving education and training landscape, organisations need 
 venusLMS delivers the above by using:  
 - **Frontend**: Next.js + React for fast, SEO-optimised, responsive UI.  
 - **Backend/API**: Node.js + Express (or Next.js API routes) for REST/GraphQL endpoints, business logic.  
-- **Database**: PostgreSQL via Neon (serverless/branchable Postgres) for reliable relational data. :contentReference[oaicite:2]{index=2}  
-- **Authentication**: BetterAuth library for email/password + OAuth providers, roles & teams. :contentReference[oaicite:4]{index=4}  
+- **Database**: PostgreSQL via Neon (serverless/branchable Postgres) for reliable relational data. 
+- **Authentication**: BetterAuth library for email/password + OAuth providers, roles & teams. 
 - **Video Storage/Streaming**: (Placeholder) – e.g., AWS S3 + CloudFront or alternative object-storage + streaming service.  
 - **Remote/Global Focus**: Designed for asynchronous teams, global timezone overlap, modular architecture for maintainability.
 
